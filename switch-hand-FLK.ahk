@@ -20,7 +20,7 @@ Switch:
 hand := 0
 Loop
 {
-    TurnKey := GetKeyState("'")
+    TurnKey := GetKeyState("v")
     IfWinActive, VALORANT
     {
         If (TurnKey == 1)
